@@ -1,0 +1,206 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/cassidy/ontologies/2020/5/try#"
+     xml:base="http://www.semanticweb.org/cassidy/ontologies/2020/5/try"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/cassidy/ontologies/2020/5/consentSim"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/cassidy/ontologies/2020/5/consentSim#access -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/cassidy/ontologies/2020/5/consentSim#access">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdfs:comment>created subproperties used and shared, unsure if they are ever used, the paper always just uses access</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/cassidy/ontologies/2020/5/consentSim#D -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cassidy/ontologies/2020/5/consentSim#D">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cassidy/ontologies/2020/5/consentSim#Data"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cassidy/ontologies/2020/5/consentSim#D1 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cassidy/ontologies/2020/5/consentSim#D1">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cassidy/ontologies/2020/5/consentSim#D"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cassidy/ontologies/2020/5/consentSim#D2 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cassidy/ontologies/2020/5/consentSim#D2">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cassidy/ontologies/2020/5/consentSim#D"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cassidy/ontologies/2020/5/consentSim#Data -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cassidy/ontologies/2020/5/consentSim#Data"/>
+    
+
+
+    <!-- http://www.semanticweb.org/cassidy/ontologies/2020/5/consentSim#R -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cassidy/ontologies/2020/5/consentSim#R">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cassidy/ontologies/2020/5/consentSim#Recipient"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cassidy/ontologies/2020/5/consentSim#R1 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cassidy/ontologies/2020/5/consentSim#R1">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cassidy/ontologies/2020/5/consentSim#R"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cassidy/ontologies/2020/5/consentSim#R2 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cassidy/ontologies/2020/5/consentSim#R2">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cassidy/ontologies/2020/5/consentSim#R1"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cassidy/ontologies/2020/5/consentSim#R3 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cassidy/ontologies/2020/5/consentSim#R3">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cassidy/ontologies/2020/5/consentSim#R"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cassidy/ontologies/2020/5/consentSim#Recipient -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cassidy/ontologies/2020/5/consentSim#Recipient"/>
+    
+
+
+    <!-- http://www.semanticweb.org/cassidy/ontologies/2020/5/consentSim#T -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cassidy/ontologies/2020/5/consentSim#T">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cassidy/ontologies/2020/5/consentSim#Time"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cassidy/ontologies/2020/5/consentSim#T0 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cassidy/ontologies/2020/5/consentSim#T0">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cassidy/ontologies/2020/5/consentSim#T"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cassidy/ontologies/2020/5/consentSim#T1 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cassidy/ontologies/2020/5/consentSim#T1">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cassidy/ontologies/2020/5/consentSim#T0"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cassidy/ontologies/2020/5/consentSim#T2 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cassidy/ontologies/2020/5/consentSim#T2">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cassidy/ontologies/2020/5/consentSim#T1"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cassidy/ontologies/2020/5/consentSim#T3 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cassidy/ontologies/2020/5/consentSim#T3">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cassidy/ontologies/2020/5/consentSim#T2"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cassidy/ontologies/2020/5/consentSim#Time -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cassidy/ontologies/2020/5/consentSim#Time"/>
+    
+
+
+    <!-- http://www.semanticweb.org/cassidy/ontologies/2020/5/consentSim#U -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cassidy/ontologies/2020/5/consentSim#U">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cassidy/ontologies/2020/5/consentSim#User"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cassidy/ontologies/2020/5/consentSim#U1 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cassidy/ontologies/2020/5/consentSim#U1">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cassidy/ontologies/2020/5/consentSim#U"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cassidy/ontologies/2020/5/consentSim#User -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cassidy/ontologies/2020/5/consentSim#User"/>
+    
+
+
+    <!-- http://www.semanticweb.org/cassidy/ontologies/2020/5/consentSim#nrConsent -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cassidy/ontologies/2020/5/consentSim#nrConsent"/>
+    
+
+
+    <!-- http://www.semanticweb.org/cassidy/ontologies/2020/5/consentSim#nrWithdraw -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cassidy/ontologies/2020/5/consentSim#nrWithdraw"/>
+    
+
+
+    <!-- http://www.semanticweb.org/cassidy/ontologies/2020/5/consentSim#rConsent -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cassidy/ontologies/2020/5/consentSim#rConsent"/>
+    
+
+
+    <!-- http://www.semanticweb.org/cassidy/ontologies/2020/5/consentSim#rWithdraw -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cassidy/ontologies/2020/5/consentSim#rWithdraw"/>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
